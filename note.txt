@@ -1,0 +1,11 @@
+docker pull debian:buster
+FROM debian:buster
+#&& docker run -it -p 80:buster -p 80:80
+#&& docker run -it -p 80:80 mondocker
+# apt install nginx
+# apt install mariadb-server mariadb-client
+# apt update
+# apt upgrade
+# service nginx restart/stop/start;w
+# apt install systemed
+# apt install nginx
