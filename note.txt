@@ -1,4 +1,4 @@
-docker pull debian:buster
+/*docker pull debian:buster
 FROM debian:buster
 #&& docker run -it -p 80:buster -p 80:80
 #&& docker run -it -p 80:80 mondocker
@@ -8,4 +8,18 @@ FROM debian:buster
 # apt upgrade
 # service nginx restart/stop/start;w
 # apt install systemed
-# apt install nginx
+# apt install nginx*/
+i
+
+
+
+~docker ps -a
+docker rm ID
+docker build -t NAMEDOCKER .
+docker run -it -t 80:80 MONDOCKERNAME
+
+
+
+
+service nginx start
+service mysql start.
